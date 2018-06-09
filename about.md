@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Aarthi, a Bioinformatician at Mount Sinai Health System in New York. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+You can email me at aarthir239@gmail.com or connect with me on [LinkedIn](https://linkedin.com/in/aartrama/){:target="_blank"}.
 
 
-[jekyll-organization]: https://github.com/jekyll
+
+This site is powered by [GitHub](https://github.com/){:target="_blank"} and [Jekyll](https://jekyllrb.com/){:target="_blank"}. 
+
+

@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Anaconda"
+date:   2017-10-29 01:05:27 -0400
+categories: programming
+---
+Anaconda is a must have tool for every bioinformatician as it helps in getting an analysis done, rather than wasting time in the installation of tools. Following are steps to install Anaconda -
+
+1) Download Anaconda from [here](https://www.anaconda.com/download/#macos){:target="_blank"}. Choose the command line version.
+
+2) To install it, type
+
+{% highlight bash %}
+bash Anaconda2-5.0.1-MacOSX-x86_64.sh
+{% endhighlight %}
+
+on the command line and follow the prompts for installation.
+
+
+All done! Anaconda supports a wide range of tools. If you would like to install a tool, simply type the tool's name followed by 'conda' in the google search bar. Click on the first anaconda page link, copy the line of code given on the page and run it on your terminal. 
