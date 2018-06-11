@@ -4,11 +4,11 @@ title:  "Programming tips"
 date:   2016-09-11 01:05:27 -0400
 categories: programming
 ---
-I've been learning the programming language Python for the past 2 years, and following are some of the lessons I would like to share, and remind myself of from time to time:
+I've been learning to program in Python for the past 2 years, and following are some of the lessons I would like to share, and remind myself of from time to time:
 
-* Start coding! The only way you will ever learn to code is by actually writing some code. I started to learn programming from the website Codecademy. Doing the python module a couple of times really helped me get a firm grip on the basic concepts. Parsing different kinds of files to extract useful information from them is a good exercise too.
+* Start coding! The only way you will ever learn to code is by actually writing some code. I started to learn programming from the website [Codecademy](https://www.codecademy.com/){:target="_blank"}. Going through the python module a couple of times really helped me get a firm grip on the basic concepts. Parsing different kinds of files to extract useful information from them is a good exercise too.
 
-* For big programming tasks, write the problem's pseudo code in a word document or on a sheet of paper. If you don't have time to write one, at least write the goal of your programming task, and how you are going to go about accomplishing it in a few simple sentences. Only then, start writing the actual code. Otherwise, you will just get pretty lost in your code and/or will end up writing an inefficient one.
+* For big programming tasks, write the problem's pseudo code in a word document or on a sheet of paper. If you do not have time to write one, at least write the goal of your programming task, and how you are going to go about accomplishing it in a few simple sentences. Only then, start writing the actual code. Otherwise, you will get pretty lost in your code and/or will end up writing an inefficient one.
 
 * If the data that you are handling is huge (many giga bytes), work with a smaller version of the dataset first. For example, just work on a test file containing just the first 10 lines from the original file.
 
@@ -26,7 +26,7 @@ I've been learning the programming language Python for the past 2 years, and fol
 
 * Use dictionaries (python) or hashes (perl) whenever you can. These are really efficient data structures. 
 
-* Using a good editor is really important. It makes your life a hundred times easier. I personally use Sublime text to write code. If possible, master using the 'vi' editor. 
+* Using a good editor is really important. It makes your life a hundred times easier. I personally use [Sublime text](http://www.sublimetext.com/){:target="_blank"} to write code. If possible, master using the 'vi' editor. 
 
 * Sometimes, you assume that you have already written a step in your code, and run the program. But do not make assumptions! Check again if you have written all the required steps for the code to run. 
 
