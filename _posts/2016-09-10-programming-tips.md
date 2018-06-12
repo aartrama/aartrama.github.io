@@ -31,3 +31,5 @@ I've been learning to program in Python for the past 2 years, and following are 
 * Sometimes, you assume that you have already written a step in your code, and run the program. But do not make assumptions! Check again if you have written all the required steps for the code to run. 
 
 * NEVER copy and paste a code from a pdf file. The pasted code will give unnecessary errors.
+
+* Use functions whenever you can. Do NOT copy and paste the same blocks of code in your program.
