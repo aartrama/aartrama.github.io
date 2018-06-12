@@ -38,7 +38,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-algolia:
-  application_id: GP7O3EBA90
-  index_name: jekyll # You can replace that with whatever name you want
-  search_only_api_key: 00c70fbc7b2636eb466301b80fe1ba08
+url: http://aarthiramakrishnan.com
