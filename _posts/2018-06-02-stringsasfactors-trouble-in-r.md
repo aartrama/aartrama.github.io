@@ -98,7 +98,7 @@ An alternative to including stringsAsFactors = F for every file you read into R 
 
 at the beginning of the R script
 
-[This](https://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography/){:target="_blank"} article was also very helpful in getting a better understanding of this problem:
+[This](https://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography/){:target="_blank"} article was also very helpful in getting a better understanding of this problem.
 
 
 
