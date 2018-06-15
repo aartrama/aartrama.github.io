@@ -52,9 +52,9 @@ We use this list of p-values to fill the RRHO matrix, starting from the bottom l
 
 In the end, we obtain a 17x17 matrix for -log(p-values). This matrix is typically represented as a heat map; the color scale ranging from red (for most significant) to blue (least significant). 
 
- ![RRHO](http://3.bp.blogspot.com/-j1Nb27flnxU/WxMH5ThAWqI/AAAAAAAABDE/teIe9UySA943fY3lIGC1wKy0G0J5BOXKgCK4BGAYYCw/s1600/12964_2015_96_Fig6_HTML.gif){:class="img-responsive"}
+ ![RRHO]({{ aartrama.github.io }}/assets/images/RRHO.gif)
 
-https://openi.nlm.nih.gov/detailedresult.phpimg=PMC4396151_12964_2015_96_Fig6_HTML&req=4
+[Source](https://openi.nlm.nih.gov/detailedresult.php?img=PMC4396151_12964_2015_96_Fig6_HTML&req=4){:target="_blank"}
 
 This RRHO has a red signal in the bottom left quadrant, which represents the presence of significantly co up-regulated genes. Red denotes high significance, and blue denotes poor significance of overlap.
 
