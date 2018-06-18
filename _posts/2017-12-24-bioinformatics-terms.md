@@ -34,3 +34,12 @@ Hard-clipped: bases in 5' and 3' of the read are NOT part of the alignment AND t
 6. **Principal Component Analysis** -
 
 7. **Sequencing depth** - The number of times a particular base has been sequenced.
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

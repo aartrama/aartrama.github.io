@@ -31,3 +31,12 @@ ssh-copy-id ramaka02@minerva.hpc.mssm.edu
 Type the password for the server one last time, and you're all set! Next time, you will not be prompted for a password.
 
 * To set up ssh key for another server, start from Step 2.
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

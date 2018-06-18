@@ -21,3 +21,12 @@ set aliases for various servers you use. For example:
 5. Install Sublime text and add license.
 
 6. Enable minimize on click for applications on launcher. 
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

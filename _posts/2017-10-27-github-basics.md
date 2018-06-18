@@ -31,3 +31,13 @@ Change into your cloned repository on your local machine, create a new .txt file
 3. `git commit -m "This is a commit"` (Replace 'This is a commit' with a useful commit message)
 4. `git push` ('push' the changes you made on your local machine to the GitHub repository)
 5. `git pull` (to sync with changes others in your team have made to the repository)
+
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

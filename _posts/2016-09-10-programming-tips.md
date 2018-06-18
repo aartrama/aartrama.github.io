@@ -33,3 +33,13 @@ I've been learning to program in Python for the past 2 years, and following are 
 * NEVER copy and paste a code from a pdf file. The pasted code will give unnecessary errors.
 
 * Use functions whenever you can. Do NOT copy and paste the same blocks of code in your program.
+
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

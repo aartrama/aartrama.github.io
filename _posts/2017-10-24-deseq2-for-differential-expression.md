@@ -30,3 +30,12 @@ The major issues I faced with DESeq2 while 'extracting results' were:
 1) What if I want to change the control group? I would have to run the model again (in the case of 2 different control groups in the same factor).
 
 2) What if I want to compare male morphine vs. female saline? Male morphine vs. female morphine can be done, male saline vs. female saline can be done, morphine vs. saline in males can be done and morphine vs. saline in females can be done. But male morphine vs. female saline and male saline vs. female morphine cannot be extracted. 
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

@@ -70,3 +70,12 @@ bedGraphToBigWig sorted.clipped.filename.bdg hg38.chrom.sizes filename.bw
 {% endhighlight %}
 
 You can now upload the bw files in a web server and provide the link to these files in 'custom tracks' of UCSC Genome Browser.
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

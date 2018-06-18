@@ -44,3 +44,13 @@ The ranks of the genes are compared using 'Mann-Whitney U Test' (Fisher's exact 
 5. After we obtain p-values upon comparison of the RNA-seq gene list with each gene set, corrected p-values are calculated as follows:
 
 Corrected P-value =  max (1-#sign.test/#total.tests, 1/#total.tests)
+
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

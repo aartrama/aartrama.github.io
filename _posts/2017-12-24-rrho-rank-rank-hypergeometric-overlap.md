@@ -68,3 +68,13 @@ The 4 quadrants of the RRHO map represent the following -
 Reference: [https://academic.oup.com/nar/article/38/17/e169/1033168](https://academic.oup.com/nar/article/38/17/e169/1033168){:target="_blank"}
 
 Caveat: The RRHO cannot represent negative correlations, i.e., if the spearman correlation is negative, the RRHO map would appear blue.
+
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

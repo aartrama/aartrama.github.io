@@ -15,3 +15,12 @@ The following biostars links are useful too:
 * [control used (IgG/Input)](https://www.biostars.org/p/300621/]){:target="_blank"}
 
 Input samples are generally preferred over IgG, as they work best while using MACS for peak calling.
+
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>

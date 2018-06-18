@@ -26,7 +26,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
 
 
 # Exclude from processing.
@@ -41,8 +40,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 url: http://aarthiramakrishnan.com
-
-# Pagination settings
-paginate: 5
-paginate_path: "/page/:num"
-  
