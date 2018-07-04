@@ -141,6 +141,10 @@ categories: programming
 
 **fRNAdb** -
 
+11) Tool for sampling reads from a fastq file -
+
+**seqtk**
+
 <div class="Previous-next">
   {% if page.previous.url %}
     <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
