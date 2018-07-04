@@ -4,7 +4,7 @@ title:  "Setting up a new Ubuntu workstation for Bioinformatics"
 date:   2017-12-15 01:05:27 -0400
 categories: programming
 ---
-1. Add the following to .bashrc:
+1. Add the following to ~/.bash_profile:
 
 `alias rm='rm -i'`
 
