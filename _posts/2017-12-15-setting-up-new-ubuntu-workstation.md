@@ -14,13 +14,15 @@ set aliases for various servers you use. For example:
 
 2. Install Unity Tweak Tool to use 4 split screens.
 
-3. Install Anaconda.
+3. Download and install [Anaconda](https://www.anaconda.com/download/#linux){:target="_blank"}.
 
-4. Install WPS Office. This is the only software closest to Microsoft Office. Also, uninstall LibreOffice.
+4. Install [WPS Office](https://www.wps.com/){:target="_blank"}. This is the only software closest to Microsoft Office. Also, uninstall LibreOffice.
 
-5. Install Sublime text and add license.
+5. Install [Sublime text](https://www.sublimetext.com/){:target="_blank"} and add license.
 
 6. Enable minimize on click for applications on launcher. 
+
+7. Set firefox to open new tabs to the far right. Follow [this](https://support.mozilla.org/en-US/questions/971529){:target="_blank"} tutorial.
 
 <div class="Previous-next">
   {% if page.previous.url %}
