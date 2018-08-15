@@ -11,6 +11,9 @@ Ranked in the order of importance -
 2. [An Introduction to Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about){:target="_blank"}
 3. [OCDevel Machine Learning guide podcast](http://ocdevel.com/mlg){:target="_blank"}
 4. [Data School scikit-learn videos](https://www.youtube.com/user/dataschool/videos){:target="_blank"}
+<br><br>
+<br><br>
+
 
 
 <div class="Previous-next">
