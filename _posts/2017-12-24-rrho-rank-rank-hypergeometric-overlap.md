@@ -8,7 +8,7 @@ RRHO is used to find the overlap between two gene lists. To generate an RRHO, ev
 
 **Steps to generate RRHO -**
 
-1. The first step is to identify the common genes between 2 gene lists. If the first gene list has 300 genes, and second gene list has 290 genes, 289 genes remain in gene list 1 and 289 genes remain in gene list 2 (assuming 289 genes are common b/w the two lists).
+1. The first step is to identify the common genes between 2 gene lists. If the first gene list has 300 genes, and second gene list has 290 genes, 289 genes remain in both gene lists (assuming 289 genes are common b/w the two lists).
 
 2. Next, genes in each gene list are ranked based on the signed negative log of p-value. 'Signed' here refers to assigning a '+' or a '-' sign to the - log (p-value), depending on whether the gene is up or down-regulated. The genes at the top of the list would have the most significantly up-regulated genes, and the genes at the bottom would have the most significantly down-regulated genes.
 
@@ -56,7 +56,7 @@ In the end, we obtain a 17x17 matrix for -log(p-values). This matrix is typicall
 
 [Source](https://openi.nlm.nih.gov/detailedresult.php?img=PMC4396151_12964_2015_96_Fig6_HTML&req=4){:target="_blank"}
 
-This RRHO has a red signal in the bottom left quadrant, which represents the presence of significantly co up-regulated genes. Red denotes high significance, and blue denotes poor significance of overlap.
+The red signal at the bottom left quadrant represents the presence of significantly co up-regulated genes. Red denotes high significance, and blue denotes poor significance of overlap.
 
 
 The 4 quadrants of the RRHO map represent the following -
