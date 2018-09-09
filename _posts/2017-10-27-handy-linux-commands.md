@@ -4,6 +4,7 @@ title:  "Handy Linux commands"
 date:   2016-09-27 01:05:27 -0400
 categories: programming
 ---
+Following are some useful linux commands:
 
 {% highlight bash %}
 # Command to create a tar.gz file
@@ -19,8 +20,6 @@ tar -cvf file_to_compress.tar file_to_compress
 ldd --version
 
 {% endhighlight %}
-
-<br><br>
 <div class="Previous-next">
   {% if page.previous.url %}
     <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
@@ -29,4 +28,3 @@ ldd --version
     <a class="next" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
   {% endif %}
 </div>
-
