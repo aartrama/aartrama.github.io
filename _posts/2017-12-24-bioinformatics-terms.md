@@ -31,9 +31,7 @@ Soft-clipped: bases in 5' and 3' of the read are NOT part of the alignment.
 
 Hard-clipped: bases in 5' and 3' of the read are NOT part of the alignment AND those bases have been removed from the read sequence in the BAM file. The 'real' sequence length would be length of sequence + count-of-hard-clipped-bases
 
-6. **Principal Component Analysis** -
-
-7. **Sequencing depth** - The number of times a particular base has been sequenced.
+6. **Sequencing depth** - The number of times a particular base has been sequenced.
 
 <div class="Previous-next">
   {% if page.previous.url %}
