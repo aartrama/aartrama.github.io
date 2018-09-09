@@ -21,7 +21,6 @@ categories: programming
 4. [Data School scikit-learn videos](https://www.youtube.com/user/dataschool/videos){:target="_blank"}: Helpful videos to get started with applying your Machine Learning knowledge using scikit-learn. 
 
 <br><br>
-<br><br>
 
 
 
