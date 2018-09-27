@@ -32,6 +32,8 @@ Following are some suggestions while analyzing NGS datasets -
 
 10. DO NOT copy a piece of code from the terminal window, paste it somewhere else and try to run it. The format of the copied code would have changed.
 
+11. Be very careful with the bedtools flags. Understand each flag carefully. You would probably want to include the -F 1.0 in most cases. 
+
 
 <div class="Previous-next">
   {% if page.previous.url %}
