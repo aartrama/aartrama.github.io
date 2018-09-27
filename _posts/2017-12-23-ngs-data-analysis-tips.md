@@ -24,16 +24,15 @@ Following are some suggestions while analyzing NGS datasets -
 
 6. Fold change and log fold change are 2 different terms. Do not mistake one for the other.
 
-7. Merging fastq files is not a good idea. Instead, merging the bam files is better.
+7. Whenever you would like to visualize expression data as a heatmap, it is best to log transform the data before visualization. Vst or rlog transform can be used.
 
-8. Whenever you would like to visualize expression data as a heatmap, it is best to log transform the data before visualization. Vst or rlog transform can be used.
+8. Automate your process wherever possible! Accomplishing tasks manually is not only error prone, but also a waste of time.
 
-9. Automate your process wherever possible! Accomplishing tasks manually is not only error prone, but also a waste of time.
+9. DO NOT copy a piece of code from the terminal window, paste it somewhere else and try to run it. The format of the copied code would have changed.
 
-10. DO NOT copy a piece of code from the terminal window, paste it somewhere else and try to run it. The format of the copied code would have changed.
-
-11. Be very careful with the bedtools flags. Understand each flag carefully. You would probably want to include the -F 1.0 in most cases. 
-
+10. Be very careful with the bedtools flags. Understand each flag carefully. You would probably want to include the -F 1.0 in most cases. 
+<br>
+<br>
 
 <div class="Previous-next">
   {% if page.previous.url %}
