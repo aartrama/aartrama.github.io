@@ -33,6 +33,11 @@ Hard-clipped: bases in 5' and 3' of the read are NOT part of the alignment AND t
 
 6. **Sequencing depth** - The number of times a particular base has been sequenced.
 
+7. **Tags (wrt peak calling)** - The no. of reads under a peak
+
+8. **Summit (wrt peak calling)** - The highest position of a peak 
+
+
 <div class="Previous-next">
   {% if page.previous.url %}
     <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
