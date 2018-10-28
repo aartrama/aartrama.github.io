@@ -26,7 +26,7 @@ import numpy as np
 x = [1, 2, 3]
 y = [4, 5, 6]
 def sum_of_product(x, y):     
-	return np.matmul(x,y) 
+	return np.dot(x,y) 
 {% endhighlight %}
 
 This way, the code is efficient as well as concise.
