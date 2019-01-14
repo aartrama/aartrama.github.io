@@ -12,7 +12,7 @@ VARIABLE2="Text2"
 echo This is an example string: $VARIABLE1, $VARIABLE2
 {% endhighlight %}
 
-This is really convenient in Bash. But in python 2, it is a little more complicated than that. Following is the only way one could format a string:
+This is really convenient in Bash. But in python 2, it is more complicated. Following is the only way one could format a string:
 
 {% highlight python %}
 variable1 = "TEXT1"
