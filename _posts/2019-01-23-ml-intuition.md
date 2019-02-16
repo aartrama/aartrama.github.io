@@ -5,57 +5,52 @@ date:   2019-01-23 01:05:27 -0400
 categories: programming
 ---
 
-Let us assume that we have a matrix of 1000 training examples (houses) as rows, and 10 features (distance to downtown, sq. foot of house, no. of schools...) as columns. The last column is y, which denotes the house's affordability - expensive (1) or cheap (0). 
+Let's assume we have a matrix of 1000 training examples (houses) as rows, and 10 features (distance to downtown, sq. foot of house, no. of schools...) as columns. The last column y denotes the house's affordability - expensive (1) or cheap (0). 
 
-**Houses** | **Distance to DT** | **Sq. Foot** | **No. of schools** | .. | **y** | 
-house 1 | 24 | 2313 | 3 | .. | 1 |
-house 2 | 54 | 1234 | 2 | .. | 1 |
-house 3 | 23 | 1000 | 5 | .. | 0 |
+**Houses** | **Dist. to downtown** | **Sq. Foot** | **No. of schools** | .. | **y** | 
+house #1 | 24 | 2000 | 3 | .. | 1 |
+house #2 | 54 | 1500 | 2 | .. | 1 |
+house #3 | 23 | 1000 | 5 | .. | 0 |
 .. | .. | .. | .. | .. | .. |
-house 1000 | 78 | 2590 | 3 | .. | 0 | 
+house #1000 | 78 | 1200 | 3 | .. | 0 | 
 
-Our aim is to predict the affordability (cheap or expensive) of 50 test houses. 
+The above is our training set. Our aim is to predict the affordability (cheap or expensive) of 50 test houses, which is our test set. 
 <br>
 <br>
 **Step 1: Initialization** 
 
-We initializes an equation  `y = σ (β0 + β1*x1 + β2*x2 ... β10*x10)`. β0 is the price of the house when we don't have information on the features of the house (the average cost of the house). The following variables are initialized to zero -
- - all βs
- - Cost function (J)
- - d(J)/dβ1 (i.e. the derivative of cost function with respect to dβ1)
- - d(J)/dβ2 and so on ... d(J)/dβ10
- - d(J)/dβ0 
+We initialize an equation  `y = σ(β0 + β1*x1 + β2*x2 ... β10*x10)`. β0 is the price of the house when we don't have information on the features of the house, or the average cost of the house. The following variables are initialized to zero -
+ - β0, β1, β2 ... β10
+ - dJ/dβ0, dJ/dβ1 ... dJ/dβ10 (Derivative/slope of cost function J w.r.t. dβX, where X = 0, 1, 2 ... 10)
+ - Cost function J
 
 <br>
+
 Steps 2 and 3 are carried out for each training example in a vectorized manner -
 
-
+<br>
 **Step 2: Computation of loss** 
 
-The algorithm estimates y using x1, x2, x3 ... and βs. Upon estimating y, it computes the loss using the actual y value, and adds it to the initialized J.
+We calculate ŷ (predicted y) using x1, x2, x3 ... and βs, where ŷ ranges from 0 to 1. Using ŷ and y, we compute the loss, and add it to the initialized J. Loss is computed using the cross-entropy loss formula `loss = −(ylog(ŷ)+(1−y)log(1−ŷ))`.
+<br>
 <br>
 
 **Step 3: Gradient Descent** 
 
-Using  y, the algorithm computes the derivative (or slope) of J wrt z, or dJ/dz (where z = σ (β0 + β1*x1 + β2*x2 ...β10*x10, z being the affordability of THAT particular house). Using dJ/dz, the algorithm computes the derivative of J wrt each βs, and adds them to initialized dJ/dβs. Using dJ/dz, it also computes the derivative of dJ wrt β0 and adds it to the initialized dJ/dβ0. 
+Using y, we compute the derivative of J w.r.t. z, or dJ/dz, where `z = σ(β0 + β1*x1 + β2*x2 ...β10*x10`, z being the affordability of a single house. Using dJ/dz, we compute the derivative of J w.r.t. βX, and add them to initialized dJ/dβX (where X = 0, 1, 2 ... 10). 
 <br>
-
+<br>
 **Step 4: Update Parameters**
 
-The initialized βs and β0 get updated 
- - βs += (alpha * dJ/dβs) / m , 
- - β0 += (alpha * dJ/dβ0) / m
+Initialized βs get updated: β0 += (alpha * dJ/dβ0) / m, β1 += (alpha * dJ/dβ1) / m ...
 
-<br>
-Cost function J also gets updated
- - J = J/m 
+Cost function J also gets updated: J = J/m 
 
-<br>
-dJ/dβ1 is reset to 0, dJ/dβ2 is reset to 0...., dJ/dβ0 is reset to 0. J values for each iteration are stored in a list, and J is reset to 0.
+dJ/dβ0, dJ/dβ1, dJ/dβ2 ... are reset to 0. Values of J for each iteration are stored in a list, and J is reset to 0.
 <br>
 <br>
 
-REPEAT step 2, 3 and 4 until J is minimized (or until the no. of iterations are exhausted). In the end, we have a set of optimal parameters βs, which we may use to make predictions on the test dataset. Note that predicted y (y_pred) would always be a number between 0 and 1. We may set a cutoff of y_pred < 0.5 to report the prediction to be cheap. 
+Steps 2, 3 and 4 are repeated until J is minimized (or until the no. of iterations are exhausted). In the end, we have the optimal values for β0, β1, β2 ... which we may use to make predictions on the test set. 
 <br>
 <br>
 <br>
