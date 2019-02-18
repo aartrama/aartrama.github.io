@@ -14,26 +14,28 @@ RRHO is used to find the overlap between two gene lists. To generate an RRHO, ev
 
 	**Gene list 1**
 
-	gene8  |    rank1  |   <- most significantly up-regulated
-	gene53  |  rank2|
-	gene6   |   rank3|
-	gene1   |   rank4|
-	gene5   |   rank5   | <- most significantly down-regulated
-	    ...    |        ...|
+	gene8  |    rank1    <-- most significantly up-regulated
+	gene53  |  rank2
+	gene6   |   rank3
+	    ...    |        ...
+	gene1   |   rank288
+	gene5   |   rank289    <-- most significantly down-regulated
+
 
 	**Gene list 2**
 
-	gene5  |    rank1|	<- most significantly up-regulated
-	gene10  |  rank2|
-	gene31 |   rank3|
-	gene94  |  rank4|
-	gene8   |   rank5|	<- most significantly down-regulated
-	    ...   |          ...|
+	gene5  |    rank1	<-- most significantly up-regulated
+	gene10  |  rank2
+	gene31 |   rank3
+    ...   |          ...
+	gene94  |  rank288
+	gene8   |   rank289	<-- most significantly down-regulated
+
 
 
 3. The ranks are then used to generate a scatter plot and to compute spearman correlation between the two gene lists. This is done to know whether there is a positive or a negative correlation between the two lists.
 
-4. A step size is calculated. Step size depends upon the length of each gene list. We can consider the square root of 289, which is 17, as the step size.
+4. A step size is calculated. Step size depends upon the length of each gene list. We can consider 17 (square root of 289) as the step size.
 
 5. Considering the top 17 genes in gene list 1 and top 17 genes in gene list 2, a hypergeometric test is carried out to find the significance of overlap. Next, top 17 genes from gene list 1 and top 34 (17 + step size) genes in gene list 2 are considered, and hypergeometric test is used to find the significance. This step is carried out until we are through all 289 genes, and obtain 289 hypergeometric p-value measurements.
 

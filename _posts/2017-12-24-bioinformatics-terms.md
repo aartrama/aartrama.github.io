@@ -7,7 +7,6 @@ categories: programming
 Following are some of the common bioinformatics terms one comes across in technical papers:
 
  - **Coverage** - total number of mapped reads divided by the size of the reference genome [https://www.biostars.org/p/5165](https://www.biostars.org/p/5165){:target="_blank"}
-
 | 22 | 2 | 4  | 137928 | 2.9e-05  |
 | 22 | 3 | 28 | 137928 | 6.4e-05  |
 | 22 | 4 | 10 | 137928 | 7.25e-05 |

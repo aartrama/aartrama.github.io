@@ -19,6 +19,7 @@ categories: programming
 
 **TrimGalore** - wrapper of cutadapt and fastqc
 
+<br>
 
 2) Tools for alignment - 
 
@@ -47,6 +48,8 @@ categories: programming
 
 **Cufflinks** - denovo transcriptome assembly
 
+<br>
+
 3) Misc -
 
 **SAMtools** - conversion of sam to bam, bam to sorted bam, removal of duplicate reads
@@ -65,19 +68,23 @@ categories: programming
 
 **ngsplot** - can accept large files, runs with small memory footprints
 
-**phantompeek** -
+**phantompeek** 
 
-**chippeekanno** -
+**chippeekanno** 
 
-**region_analysis** - 
+**region_analysis** 
 
 **GeneOverlap** - used to find the overlap between 2 sets of genes
+
+<br>
 
 4) Identification of splicing events - 
 
 **rMATS** - exon skipping, intron retention
 
 **MISO** - Mixture of isoforms, intron retention, skipped exon, mutually exclusive and alternative 3' UTR, splicing ratio b/w isoforms of same gene, splicing ratio between same isoform from 2 different conditions, uses bayesian theorem to iteratively infer splicing ratio. Allows to infer splicing ratios, both among isoforms of the same gene and between 2 conditions for the same isoform. Helps to identify contribution of histone/tf in regulation of AS.
+
+<br>
 
 5) Peak calling -
 
@@ -87,6 +94,8 @@ categories: programming
 
 **Homer**
 
+<br>
+
 6) Quantification of aligned reads -
 
 **Cufflinks** - Transcriptome abundance, de-novo transcriptome assembly, based on maximum likelihood principle, groups transcripts with the same transcription start site
@@ -94,6 +103,8 @@ categories: programming
 **StringTie** - Transcriptome abundance, exon level quantification
 
 **Sailfish** - no need of aligner, direct quantification
+
+<br>
 
 7) Differential expression analysis - 
 
@@ -105,42 +116,46 @@ categories: programming
 
 **DEseq** - Based on bayesian methods, local regression, generates high false negatives (highly conservative output)
 
-**Limma** - 
+**Limma** 
 
 **Voom** - models the mean variance relationship on log transformed read counts
 
 **htseq count**
 
+<br>
 8) Differential chip-seq analysis -
 
 **diffReps** - to compare differential enrichment of a histone mark/transcription factor b/w 2 conditions, takes into account biological variations between a group of samples
 
+<br>
 9) Remove batch or unwanted effects from RNA-seq datasets - 
 
 **ComBat**
 
 **BatchQC**
 
+<br>
 10) Bioinformatics databases -
 
 **repbase** - documents repetitive DNA sequences across eukaryotic species
 
-**miRbase** -
+**miRbase** 
 
-**piRNAbank** -
+**piRNAbank** 
 
-**lncRNAdb** -
+**lncRNAdb** 
 
-**snornabase** -
+**snornabase** 
 
-**SILVA** -
+**SILVA** 
 
-**Rfam** -
+**Rfam** 
 
-**NONCODE** -
+**NONCODE** 
 
-**fRNAdb** -
+**fRNAdb** 
 
+<br>
 11) Tool for sampling reads from a fastq file -
 
 **seqtk**
