@@ -12,7 +12,7 @@ categories: programming
 
 `alias minerva='ssh -l ramaka02 minerva.hpc.mssm.edu'`
 
- -  Install Unity Tweak Tool to use 4 split screens.
+ -  Set up back up of computer onto a server using crontab.
 
  -  Download and install [Anaconda](https://www.anaconda.com/download/#linux){:target="_blank"}.
 
