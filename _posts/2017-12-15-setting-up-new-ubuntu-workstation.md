@@ -18,7 +18,9 @@ categories: programming
 
  -  Install [Sublime text](https://www.sublimetext.com/){:target="_blank"} and add license.
 
- -  Enable minimize on click for applications on launcher. 
+ -  Enable minimize on click for applications on launcher.
+ 
+ -  Download and install FileZilla.
 
  -  Set Firefox to open new tabs to the far right. Follow [this](https://support.mozilla.org/en-US/questions/971529){:target="_blank"} tutorial.
 
