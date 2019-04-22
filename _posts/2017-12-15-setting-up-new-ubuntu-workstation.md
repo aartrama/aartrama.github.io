@@ -21,6 +21,8 @@ categories: programming
  -  Enable minimize on click for applications on launcher.
  
  -  Download and install FileZilla.
+ 
+ - Install [R and Rstudio](https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux){:target="_blank"}.
 
  -  Set Firefox to open new tabs to the far right. Follow [this](https://support.mozilla.org/en-US/questions/971529){:target="_blank"} tutorial.
 
