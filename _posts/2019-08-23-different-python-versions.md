@@ -21,9 +21,7 @@ conda activate python351
 I next saved the following python code in a file called code.py.
 
 {% highlight python %}
-from collections import defaultdict
-
-dictionary = defaultdict(list)
+dictionary = {}
 
 dictionary['one'] = 1
 dictionary['two'] = 2
